@@ -22,7 +22,6 @@ my %countries = ();
 
 while (<STDIN>) {
     chomp;
-    chomp;
 
     my ($countryname, $countrycode) = split(/;/, $_);
 
